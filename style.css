@@ -1,0 +1,27 @@
+/* Fuentes */ 
+@font-face {
+    font-family:'Inconsolata';
+    src: url('Inconsolataregular.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: 'Tajawal';
+    src: url('tajawalregular.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+}
+
+
+/* Contenedor general */
+.grid-container {
+    background-color: lightgrey;
+    display: grid; 
+    height: 350vh; 
+    width: 100vw;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: 5% auto auto auto auto 5%;
+    text-align: center; 
+    padding: 20px; 
+    gap: 1.25rem;
+}

@@ -34,6 +34,22 @@
     background-size: 100% 100%;
 }
 
+.videoacuario {
+    position: relative;
+    overflow: hidden;
+    padding-right: 1%;
+    border: .0063rem solid purple;
+}
+
+.videoacuario{
+
+    position: absolute;
+    top:25%;
+    right: 1%;
+    width: 60%;
+    height: 45%;
+}
+
 .aries{
     display:flex;
     flex-direction: column;

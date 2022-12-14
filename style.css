@@ -1,13 +1,19 @@
 /* Fuentes */ 
 @font-face {
-    font-family: '';
-    src: url('./') format('truetype');
+    font-family: 'Love_Ya_Like_A_Sister';
+    src: url('./fuentes/Love_Ya_Like_A_Sister/LoveYaLikeASister-Regular.ttf') format('truetype');
     font-style: normal;
     font-weight: normal;
     }
 @font-face {
-    font-family: '';
-    src: url('') format('truetype');
+    font-family: 'MediavalSharp';
+    src: url('./fuentes/MediavalSharp/MediavalSharp-Regular.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: 'RubikWetPaint-Regular';
+    src: url('./fuentes/RubikWetPaint-Regular/RubikWetPaint-Regular.ttf') format('truetype');
     font-style: normal;
     font-weight: normal;
 }

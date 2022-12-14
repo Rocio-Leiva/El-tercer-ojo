@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    
+}
+
+
+body {
+    background-image: url(./img/fondo-galaxia.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 1.25rem;
+    gap: 1.25rem;
+    width: 100vw;
+    height: 100vh;
+    
+}
+
+.item {
+    background: black;
+    color: white;
+    padding: 1em;
+    text-align: center;
+    width: 20%;
+    height: 80%;
+    
+  }
+/* .grid-item {
+    background: blue;
+    text-align: center;
+    border: black 5px solid;
+    grid-column-start: 1; 
+    grid-column-end: 5; 
+    grid-row-start: 1; 
+    grid-row-end: 3;
+  }  */
+
+footer {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: flex-end;
+    margin-right: 5%;
+}

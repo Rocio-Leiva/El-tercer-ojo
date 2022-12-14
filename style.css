@@ -1,27 +1,171 @@
 /* Fuentes */ 
 @font-face {
-    font-family:'Inconsolata';
-    src: url('Inconsolataregular.ttf') format('truetype');
+    font-family: '';
+    src: url('./') format('truetype');
     font-style: normal;
     font-weight: normal;
-}
+    }
 @font-face {
-    font-family: 'Tajawal';
-    src: url('tajawalregular.ttf') format('truetype');
+    font-family: '';
+    src: url('') format('truetype');
     font-style: normal;
     font-weight: normal;
 }
 
 
 /* Contenedor general */
-.grid-container {
-    background-color: lightgrey;
-    display: grid; 
-    height: 350vh; 
+
+.acuario{
+    display:flex;
+    flex-direction: column;
+    overflow-x: hidden;
+    position:relative;
+    height: 100vh;
     width: 100vw;
-    grid-template-columns: auto auto auto auto;
-    grid-template-rows: 5% auto auto auto auto 5%;
-    text-align: center; 
-    padding: 20px; 
-    gap: 1.25rem;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./img/aquarius-7617682_1280.jpg);background-repeat: no-repeat;background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+.aries{
+    display:flex;
+    flex-direction: column;
+    overflow-x: hidden;
+    position:relative;
+    height: 100vh;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./img/aries-7617681__480.jpg);background-repeat: no-repeat;background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+.cancer{
+    display:flex;
+    flex-direction: column;
+    overflow-x: hidden;
+    position:relative;
+    height: 100vh;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./img/cancer-7617683_1280.jpg);background-repeat: no-repeat;background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+.capricornio{
+    display:flex;
+    flex-direction: column;
+    overflow-x: hidden;
+    position:relative;
+    height: 100vh;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./img/capricorn-7617684_1280.webp);background-repeat: no-repeat;background-attachment: fixed;
+    background-size: 100% 100%;
+}
+.escorpio{
+    display:flex;
+    flex-direction: column;
+    overflow-x: hidden;
+    position:relative;
+    height: 100vh;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./img/scorpio-7617691_1280.jpg);background-repeat: no-repeat;background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+.geminis{
+    display:flex;
+    flex-direction: column;
+    overflow-x: hidden;
+    position:relative;
+    height: 100vh;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./img/gemini-7617685_1280.jpg);background-repeat: no-repeat;background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+.leo{
+    display:flex;
+    flex-direction: column;
+    overflow-x: hidden;
+    position:relative;
+    height: 100vh;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./img/leo-7617686_1280.jpg);background-repeat: no-repeat;background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+.libra{
+    display:flex;
+    flex-direction: column;
+    overflow-x: hidden;
+    position:relative;
+    height: 100vh;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./img/libra-7617688_1280.jpg);background-repeat: no-repeat;background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+.piscis{
+    display:flex;
+    flex-direction: column;
+    overflow-x: hidden;
+    position:relative;
+    height: 100vh;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./img/pisces-7617687_1280.jpg);background-repeat: no-repeat;background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+.sagitario{
+    display:flex;
+    flex-direction: column;
+    overflow-x: hidden;
+    position:relative;
+    height: 100vh;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./img/sagittarius-7617690_1280.jpg);background-repeat: no-repeat;background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+.tauro{
+    display:flex;
+    flex-direction: column;
+    overflow-x: hidden;
+    position:relative;
+    height: 100vh;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./img/taurus-7617693_1280.webp);background-repeat: no-repeat;background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+.virgo{
+    display:flex;
+    flex-direction: column;
+    overflow-x: hidden;
+    position:relative;
+    height: 100vh;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./img/virgo-7617694_1280.jpg);background-repeat: no-repeat;background-attachment: fixed;
+    background-size: 100% 100%;
 }

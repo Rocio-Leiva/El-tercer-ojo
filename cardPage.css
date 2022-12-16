@@ -36,6 +36,11 @@ aside, main, footer {
 
 }
 
+.aleatorio{
+    display: grid;
+    place-items: center;
+    }
+
 footer {
 	grid-column: 1 / 3;
    }

@@ -1,20 +1,43 @@
 let seleccionar = document.querySelector('select');
-let parrafo = document.querySelector('p');
+let formulario = document.querySelector('.play');
 
-seleccionar.addEventListener('change', establecerClima);
+// seleccionar.addEventListener('change', seleccionarHoroscopo());
 
-function establecerClima() {
+function seleccionarHoroscopo() {
   let eleccion = seleccionar.value;
-
-  if (eleccion === 'soleado') {
-    parrafo.textContent = 'El día esta agradable y soleado hoy. ¡Use pantalones cortos! Ve a la playa o al parque y come un helado.';
-  } else if (eleccion === 'lluvioso') {
-    parrafo.textContent = 'Está lloviendo, tome un abrigo para lluvia y un paraguas, y no se quede por fuera mucho tiempo.';
-  } else if (eleccion === 'nevando') {
-    parrafo.textContent = 'Está nevando ─ ¡está congelando! Lo mejor es quedarse en casa con una taza caliente de chocolate, o hacer un muñeco de nieve.';
-  } else if (eleccion === 'nublado') {
-    parrafo.textContent = 'No está lloviendo, pero el cielo está gris y nublado; podría llover en cualquier momento, así que lleve un saco solo por si acaso.';
-  } else {
-    parrafo.textContent = '';
-  }
+console.log(eleccion);
+  if (eleccion === 'Piscis') {
+    formulario.innerHTML = "<button type='submit' class='btn btn-primary'><a class='button-link' href='https://www.amazon.es/'>SABER MI FUTURO</a></button>";
+  } else if (eleccion === 'Aries') {
+    formulario.innerHTML = "<button type='submit' class='btn btn-primary'><a class='button-link' href='https://www.factoriaf5.org/'>SABER MI FUTURO</a></button>";
+  } else if (eleccion === 'Tauro') {
+    formulario.innerHTML = "<button type='submit' class='btn btn-primary'><a class='button-link' href='https://www.amazon.es/'>SABER MI FUTURO</a></button>";
+  } else if (eleccion === 'Geminis') {
+    formulario.innerHTML = "<button type='submit' class='btn btn-primary'><a class='button-link' href='https://www.amazon.es/'>SABER MI FUTURO</a></button>";
+  } else if (eleccion === 'Cancer') {
+    formulario.innerHTML = "<button type='submit' class='btn btn-primary'><a class='button-link' href='https://www.amazon.es/'>SABER MI FUTURO</a></button>";
+  } else if (eleccion === 'Leo') {
+    formulario.innerHTML = "<button type='submit' class='btn btn-primary'><a class='button-link' href='https://www.amazon.es/'>SABER MI FUTURO</a></button>";
+  } else if (eleccion === 'Virgo') {
+    formulario.innerHTML = "<button type='submit' class='btn btn-primary'><a class='button-link' href='https://www.amazon.es/'>SABER MI FUTURO</a></button>";
+  } else if (eleccion === 'Libra') {
+    formulario.innerHTML = "<button type='submit' class='btn btn-primary'><a class='button-link' href='https://www.amazon.es/'>SABER MI FUTURO</a></button>";
+  } else if (eleccion === 'Escorpio') {
+    formulario.innerHTML = "<button type='submit' class='btn btn-primary'><a class='button-link' href='https://www.amazon.es/'>SABER MI FUTURO</a></button>";
+  } else if (eleccion === 'Sagitario') {
+    formulario.innerHTML = "<button type='submit' class='btn btn-primary'><a class='button-link' href='https://www.amazon.es/'>SABER MI FUTURO</a></button>";
+  } else if (eleccion === 'Capricornio') {
+    formulario.innerHTML = "<button type='submit' class='btn btn-primary'><a class='button-link' href='https://www.amazon.es/'>SABER MI FUTURO</a></button>";
+  } else if (eleccion === 'Acuario') {
+    formulario.innerHTML = "<button type='submit' class='btn btn-primary'><a class='button-link' href='https://www.amazon.es/'>SABER MI FUTURO</a></button>";
+  } 
+ 
 }
+
+
+
+// para recorrer el array 
+
+// array.forEach(element => {
+    
+// });

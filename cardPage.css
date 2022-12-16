@@ -29,6 +29,13 @@ aside, main, footer {
     gap: 1rem;
 }
 
+.button-link{
+    color: white;
+    text-decoration: none;
+    /* modificar q no cambie d color */
+
+}
+
 footer {
 	grid-column: 1 / 3;
    }

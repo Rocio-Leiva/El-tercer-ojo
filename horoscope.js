@@ -58,6 +58,4 @@
 //     id: 11,
 //     select:false,         
 //     }
-// ];
-
-// export { horoscopeList };
+// ]

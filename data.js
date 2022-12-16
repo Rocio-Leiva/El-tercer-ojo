@@ -1,4 +1,4 @@
-// export let codersList = [{
+// export const codersList = [{
 //     name: 'Ainhoa',
 //     horoscopo: 'Acuario',
 //     id: 0,
@@ -6,13 +6,13 @@
 //     },
 //     {
 //     name: 'Mila',
-//     horoscopo: 'Acuario',
+//     horoscopo: 'Acuario'
 //     id: 1,
 //     select:false,
 //     },
 //     {
 //     name: 'Delia',
-//     horoscopo: 'Aries',
+//     horoscopo: 'Aries'
 //     id: 2,
 //     select:false,
 //     },
@@ -142,6 +142,4 @@
 //     id: 24,
 //     select: false,
 //     }
-// ];
-
-// export { codersList };
+// ]

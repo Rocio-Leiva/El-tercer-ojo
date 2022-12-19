@@ -21,17 +21,22 @@ aside, main, footer {
 	border: solid .125rem;
 }
  
+
 .page {
 	display: grid;
     height: 100%;
     grid-template-columns: 2fr 1fr;
     grid-template-rows: 1fr 6.25rem;
     gap: 1rem;
+    
 }
 
 .button-link{
     color: white;
     text-decoration: none;
+    
+
+    
     /* modificar q no cambie d color */
 
 }
@@ -54,7 +59,7 @@ footer {
     grid-gap: 1.25rem;
     gap: 1.25rem;
 
-}
+   }
 
 
 .form-row{
@@ -75,17 +80,23 @@ footer {
     
 }
    
-   .play{
+.play{
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
     margin-top: 2%;
-    
-    
+      
   
    }
    
+   .azar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2%;
+   }
 
 
 .tarotlist {

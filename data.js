@@ -1,145 +1,98 @@
-// export const codersList = [{
-//     name: 'Ainhoa',
-//     horoscopo: 'Acuario',
-//     id: 0,
-//     select:false,
-//     },
-//     {
-//     name: 'Mila',
-//     horoscopo: 'Acuario'
-//     id: 1,
-//     select:false,
-//     },
-//     {
-//     name: 'Delia',
-//     horoscopo: 'Aries'
-//     id: 2,
-//     select:false,
-//     },
-//     {
-//     name: 'Marta',
-//     horoscopo: 'Aries',
-//     id: 4,
-//     select:false,
-//     },
-//     {
-//     name: 'Miriam',
-//     horoscopo: 'Cáncer',
-//     id: 5,
-//     select: false,
-//     },
-//     {
-//     name: 'Claudette',
-//     horoscopo: 'Capricornio',
-//     id: 6,
-//     select: false,
-//     },
-//     {
-//     name: 'Paola',
-//     horoscopo: 'Capricornio',
-//     id: 7,
-//     select: false,
-//     },
-//     {
-//     name: 'Vero',
-//     horoscopo: 'Capricornio',
-//     id: 8,
-//     select: false,
-//     },
-//     {
-//     name: 'Aldara',
-//     horoscopo: 'Escorpio',
-//     id: 9,
-//     select: false,
-//     },
-//     {
-//     name: 'Ana',
-//     horoscopo: 'Escorpio',
-//     id: 10,
-//     select: false,    
-//     },
-//     {
-//     name: 'Margarita',
-//     horoscopo: 'Géminis',
-//     id: 11,
-//     select: false,
-//     },
-//     {
-//     name: 'Nohely',
-//     horoscopo: 'Géminis',
-//     id: 12,
-//     select: false,
-//     },
-//     {
-//     name: 'Anyi',
-//     horoscopo: 'Leo',
-//     id: 13,
-//     select: false,
-//     },
-//     {
-//     name: 'Mary',
-//     horoscopo: 'Leo',
-//     id:14,
-//     select: false,
-//     },
-//     {
-//     name: 'Celia',
-//     horoscopo: 'Libra',
-//     id: 15,
-//     select: false,
-//     },
-//     {
-//     name: 'Maria Shirley',
-//     horoscopo: 'Libra',
-//     id: 16,
-//     select: false,
-//     },
-//     {
-//     name: 'Cele',
-//     horoscopo: 'Piscis',
-//     id: 17,
-//     select: false,
-//     },
-//     {
-//     name: 'Diana',
-//     horoscopo: 'Piscis',
-//     id: 18,
-//     select: false,
-//     },
-//     {
-//     name: 'Rocio',
-//     horoscopo: 'Piscis',
-//     id: 19,
-//     select: false,
-//     },
-//     {
-//     name: 'Rosibel',
-//     horoscopo: 'Piscis',
-//     id: 20,
-//     select: false,
-//     },
-//     {
-//     name: 'Carmen',
-//     horoscopo: 'Sagitario',
-//     id: 21,
-//     select: false,
-//     },
-//     {
-//     name: 'Eva',
-//     horoscopo: 'Virgo',
-//     id: 22,
-//     select: false,
-//     },
-//     {
-//     name: 'Jennifer',
-//     horoscopo: 'Virgo',
-//     id: 23,
-//     select: false,
-//     },
-//     {
-//     name: 'Rosemary',
-//     horoscopo: 'Virgo',
-//     id: 24,
-//     select: false,
-//     }
-// ]
+export let codersList = 
+    [{
+        name:'Ainoha',
+        sign: 'Acuario',
+        },
+        {
+        name:'Mila',
+        sign:'Acuario',
+        },
+        {
+        name:'Delia',
+        sign:'Aries',
+        },
+        {
+        name: 'Marta',
+        sign: 'Aries',
+        },
+        {
+        name: 'Miriam',
+        sign: 'Cáncer',
+        },
+        {
+        name: 'Claudette',
+        sign: 'Capricornio',
+        },
+        {
+        name: 'Paola',
+        sign: 'Capricornio',
+        },
+        {
+        name: 'Vero',
+        sign: 'Capricornio',
+        },
+        {
+        name: 'Aldara',
+        sign: 'Escorpio',
+        },
+        {
+        name: 'Ana',
+        sign: 'Escorpio',
+        },
+        {
+        name: 'Margarita',
+        sign: 'Géminis',
+        },
+        {
+        name: 'Nohely',
+        sign: 'Géminis',
+        },
+        {
+        name: 'Anyi',
+        sign: 'Leo',
+        },
+        {
+        name: 'Mary',
+        sign: 'Leo',
+        },
+        {
+        name: 'Celia',
+        sign: 'Libra',
+        },
+        {
+        name: 'Maria Shirley',
+        sign: 'Libra',
+        },
+        {
+        name: 'Cele',
+        sign: 'Piscis',
+        },
+        {
+        name: 'Diana',
+        sign: 'Piscis',
+        },
+        {
+        name: 'Rocio',
+        sign: 'Piscis',
+        },
+        {
+        name: 'Rosibel',
+        sign: 'Piscis',
+        },
+        {
+        name: 'Carmen',
+        sign: 'Sagitario',
+        },
+        {
+        name: 'Eva',
+        sign: 'Virgo',
+        },
+        {
+        name: 'Jennifer',
+        sign: 'Virgo',
+        },
+        {
+        name: 'Rosemary',
+        sign: 'Virgo',
+        }
+    ];

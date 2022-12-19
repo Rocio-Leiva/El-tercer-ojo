@@ -5,14 +5,19 @@ import { codersList } from "./data.js"
 
 //si newList = 0 que no se ha metido datos,, se hace el random de coderslist teniendo en cuenta lengt de coderslist y si el new list es distinto de cero se coge el ramdon de newlist
 
-const horoscopos = ["Piscis", "Aries", "Tauro", "Geminis", "Cancer", "Leo", "Virgo", "Libra", "Escorpio", "Sagitario", "Capricornio", "Acuario" ];
+let horoscopos = {codersList}; 
 // let coderList o newlist
-const aleatorio = horoscopos[Math.floor(Math.random() * codersList.length)];
+
 let boton = document.querySelector(".suerte");
 
 boton.addEventListener("click", ()=> {
-console.log("holaaa");
 })
+//pendiente nombre Carmen de la imagen
+let signImagen = {codersList}(element => ["imagen"].src)
+let signName = {codersList}(element => ["Name"]);
+let sign = {codersList}(element => ["sign"]);
+let aleatorio = horoscopos[Math.floor(Math.random() * codersList.length)];
+
 
 function azar() {
   let eleccion = boton.value;

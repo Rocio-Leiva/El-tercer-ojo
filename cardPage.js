@@ -1,59 +1,55 @@
 import { codersList } from "./data.js"
-
-//coderList array 25 alumnas
-//array fusionado newList
-
-//si newList = 0 que no se ha metido datos,, se hace el random de coderslist teniendo en cuenta lengt de coderslist y si el new list es distinto de cero se coge el ramdon de newlist
-
-let horoscopos = {codersList}; 
-// let coderList o newlist
+import { newBaseDate } from "./addCard.js"
 
 let boton = document.querySelector(".suerte");
-
+let eleccion = "";
 boton.addEventListener("click", ()=> {
-})
-//pendiente nombre Carmen de la imagen
-let signImagen = {codersList}(element => ["imagen"].src)
-let signName = {codersList}(element => ["Name"]);
-let sign = {codersList}(element => ["sign"]);
-let aleatorio = horoscopos[Math.floor(Math.random() * codersList.length)];
+ let newList= [...codersList, ...newBaseDate];
+ 
+let signImagen = newList.map(element => element ["img"]);
+let signName = newList.map(element => element ["name"]);
+let horoscopo = newList.map(element => element ["sign"]);
+let aleatorio = Math.floor(Math.random() * newList.length);
+
+console.log(newList[aleatorio]);
+let eleccion = horoscopo[aleatorio];
+console.log(eleccion);
+
+azar();
+});
 
 
 function azar() {
-  let eleccion = boton.value;
-  if (eleccion === 'Piscis') {
-    formulario.innerHTML = "<button type='submit' class='btn btn-primary'><a class='button-link' href='https://www.amazon.es/'>SABER MI FUTURO</a></button>";
-  } else if (eleccion === 'Aries') {
-    formulario.innerHTML = "<button type='submit' class='btn btn-primary'><a class='button-link' href='https://www.factoriaf5.org/'>SABER MI FUTURO</a></button>";
-  } else if (eleccion === 'Tauro') {
-    formulario.innerHTML = "<button type='submit' class='btn btn-primary'><a class='button-link' href='https://www.amazon.es/'>SABER MI FUTURO</a></button>";
-  } else if (eleccion === 'Geminis') {
-    formulario.innerHTML = "<button type='submit' class='btn btn-primary'><a class='button-link' href='https://www.amazon.es/'>SABER MI FUTURO</a></button>";
-  } else if (eleccion === 'Cancer') {
-    formulario.innerHTML = "<button type='submit' class='btn btn-primary'><a class='button-link' href='https://www.amazon.es/'>SABER MI FUTURO</a></button>";
-  } else if (eleccion === 'Leo') {
-    formulario.innerHTML = "<button type='submit' class='btn btn-primary'><a class='button-link' href='https://www.amazon.es/'>SABER MI FUTURO</a></button>";
-  } else if (eleccion === 'Virgo') {
-    formulario.innerHTML = "<button type='submit' class='btn btn-primary'><a class='button-link' href='https://www.amazon.es/'>SABER MI FUTURO</a></button>";
-  } else if (eleccion === 'Libra') {
-    formulario.innerHTML = "<button type='submit' class='btn btn-primary'><a class='button-link' href='https://www.amazon.es/'>SABER MI FUTURO</a></button>";
-  } else if (eleccion === 'Escorpio') {
-    formulario.innerHTML = "<button type='submit' class='btn btn-primary'><a class='button-link' href='https://www.amazon.es/'>SABER MI FUTURO</a></button>";
-  } else if (eleccion === 'Sagitario') {
-    formulario.innerHTML = "<button type='submit' class='btn btn-primary'><a class='button-link' href='https://www.amazon.es/'>SABER MI FUTURO</a></button>";
-  } else if (eleccion === 'Capricornio') {
-    formulario.innerHTML = "<button type='submit' class='btn btn-primary'><a class='button-link' href='https://www.amazon.es/'>SABER MI FUTURO</a></button>";
-  } else if (eleccion === 'Acuario') {
-    formulario.innerHTML = "<button type='submit' class='btn btn-primary'><a class='button-link' href='https://www.amazon.es/'>SABER MI FUTURO</a></button>";
+
+  if (eleccion === 'piscis') {
+    window.location = href='https://www.amazon.es/';
+    
+    // window.location = "<button type='button' class='btn btn-primary btn-lg suerte'><a class='button-link' href='https://www.amazon.es/'>PROBAR SUERTE</a></button>";
+  } else if (eleccion === [1] === 'Aries') {
+    window.location = "url2";
+  } else if (eleccion === [1] === 'Tauro') {
+    window.location = "url3" ;
+  } else if (eleccion === [1] === 'Geminis') {
+    window.location = "url4";
+  } else if (eleccion === [1] === 'Cancer') {
+    window.location = "url5";
+  } else if (eleccion === [1] === 'Leo') {
+    window.location = "url6";
+  } else if (eleccion === [1] === 'Virgo') {
+    window.location = "url7";
+  } else if (eleccion === [1] === 'Libra') {
+    window.location = "url8" ;
+  } else if (eleccion === [1] === 'Escorpio') {
+    window.location = "url9";
+  } else if (eleccion === [1] ===  'Sagitario') {
+    window.location = "url10";
+  } else if (eleccion === [1] === 'Capricornio') {
+    window.location = "url11";
+  // } else if (eleccion === 'Acuario') {
+  //   formulario.innerHTML = "<button type='button' class='btn btn-primary btn-lg suerte'><a class='button-link' href='https://www.amazon.es/'>SABER MI FUTURO</a></button>";
   } 
  
 }
 
-console.log(horoscopos);
-console.log(aleatorio);
 
-// para recorrer el array 
 
-// array.forEach(element => {
-    
-// });

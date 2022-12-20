@@ -1,18 +1,18 @@
 /* Fuentes */ 
 @font-face {
-    font-family: 'Love_Ya_Like_A_Sister';
+    font-family: 'Love';
     src: url('./fuentes/Love_Ya_Like_A_Sister/LoveYaLikeASister-Regular.ttf') format('truetype');
     font-style: normal;
     font-weight: normal;
     }
 @font-face {
-    font-family: 'MediavalSharp';
+    font-family: 'Mediaval';
     src: url('./fuentes/MediavalSharp/MediavalSharp-Regular.ttf') format('truetype');
     font-style: normal;
     font-weight: normal;
 }
 @font-face {
-    font-family: 'RubikWetPaint-Regular';
+    font-family: 'Rubik';
     src: url('./fuentes/RubikWetPaint-Regular/RubikWetPaint-Regular.ttf') format('truetype');
     font-style: normal;
     font-weight: normal;
@@ -31,24 +31,21 @@
     justify-content: center;
     align-items: center;
     background-image: url(./img/aquarius-7617682_1280.jpg);background-repeat: no-repeat;background-attachment: fixed;
-    background-size: 100% 100%;
+    /*background-size: cover;
+    background-position: 12%;*/
 }
+
 
 .videoacuario {
-    position: relative;
-    overflow: hidden;
-    padding-right: 1%;
-    border: .0063rem solid purple;
-}
-
-.videoacuario{
-
     position: absolute;
-    top:25%;
+    overflow: hidden;
+    padding-right: 22%;
+    top:30%;
     right: 1%;
     width: 60%;
     height: 45%;
 }
+
 
 .aries{
     display:flex;
@@ -61,6 +58,15 @@
     align-items: center;
     background-image: url(./img/aries-7617681__480.jpg);background-repeat: no-repeat;background-attachment: fixed;
     background-size: 100% 100%;
+}
+.videoaries {
+    position: absolute;
+    overflow: hidden;
+    padding-right: 22%;
+    top:30%;
+    right: 1%;
+    width: 60%;
+    height: 45%;
 }
 
 .cancer{
@@ -75,6 +81,15 @@
     background-image: url(./img/cancer-7617683_1280.jpg);background-repeat: no-repeat;background-attachment: fixed;
     background-size: 100% 100%;
 }
+.videocancer {
+    position: absolute;
+    overflow: hidden;
+    padding-right: 22%;
+    top:30%;
+    right: 1%;
+    width: 60%;
+    height: 45%;
+}
 
 .capricornio{
     display:flex;
@@ -88,6 +103,15 @@
     background-image: url(./img/capricorn-7617684_1280.webp);background-repeat: no-repeat;background-attachment: fixed;
     background-size: 100% 100%;
 }
+.videocapricornio {
+    position: absolute;
+    overflow: hidden;
+    padding-right: 22%;
+    top:30%;
+    right: 1%;
+    width: 60%;
+    height: 45%;
+}
 .escorpio{
     display:flex;
     flex-direction: column;
@@ -99,6 +123,15 @@
     align-items: center;
     background-image: url(./img/scorpio-7617691_1280.jpg);background-repeat: no-repeat;background-attachment: fixed;
     background-size: 100% 100%;
+}
+.videoescorpio {
+    position: absolute;
+    overflow: hidden;
+    padding-right: 22%;
+    top:30%;
+    right: 1%;
+    width: 60%;
+    height: 45%;
 }
 
 .geminis{
@@ -113,7 +146,15 @@
     background-image: url(./img/gemini-7617685_1280.jpg);background-repeat: no-repeat;background-attachment: fixed;
     background-size: 100% 100%;
 }
-
+.videogeminis {
+    position: absolute;
+    overflow: hidden;
+    padding-right: 22%;
+    top:30%;
+    right: 1%;
+    width: 60%;
+    height: 45%;
+}
 .leo{
     display:flex;
     flex-direction: column;
@@ -125,6 +166,15 @@
     align-items: center;
     background-image: url(./img/leo-7617686_1280.jpg);background-repeat: no-repeat;background-attachment: fixed;
     background-size: 100% 100%;
+}
+.videoleo {
+    position: absolute;
+    overflow: hidden;
+    padding-right: 22%;
+    top:30%;
+    right: 1%;
+    width: 60%;
+    height: 45%;
 }
 
 .libra{
@@ -139,6 +189,15 @@
     background-image: url(./img/libra-7617688_1280.jpg);background-repeat: no-repeat;background-attachment: fixed;
     background-size: 100% 100%;
 }
+.videolibra {
+    position: absolute;
+    overflow: hidden;
+    padding-right: 22%;
+    top:30%;
+    right: 1%;
+    width: 60%;
+    height: 45%;
+}
 
 .piscis{
     display:flex;
@@ -152,7 +211,15 @@
     background-image: url(./img/pisces-7617687_1280.jpg);background-repeat: no-repeat;background-attachment: fixed;
     background-size: 100% 100%;
 }
-
+.videopiscis {
+    position: absolute;
+    overflow: hidden;
+    padding-right: 22%;
+    top:30%;
+    right: 1%;
+    width: 60%;
+    height: 45%;
+}
 .sagitario{
     display:flex;
     flex-direction: column;
@@ -164,6 +231,15 @@
     align-items: center;
     background-image: url(./img/sagittarius-7617690_1280.jpg);background-repeat: no-repeat;background-attachment: fixed;
     background-size: 100% 100%;
+}
+.videosagitario {
+    position: absolute;
+    overflow: hidden;
+    padding-right: 22%;
+    top:30%;
+    right: 1%;
+    width: 60%;
+    height: 45%;
 }
 
 .tauro{
@@ -178,7 +254,15 @@
     background-image: url(./img/taurus-7617693_1280.webp);background-repeat: no-repeat;background-attachment: fixed;
     background-size: 100% 100%;
 }
-
+.videotauro {
+    position: absolute;
+    overflow: hidden;
+    padding-right: 22%;
+    top:30%;
+    right: 1%;
+    width: 60%;
+    height: 45%;
+}
 .virgo{
     display:flex;
     flex-direction: column;
@@ -191,3 +275,69 @@
     background-image: url(./img/virgo-7617694_1280.jpg);background-repeat: no-repeat;background-attachment: fixed;
     background-size: 100% 100%;
 }
+.videovirgo {
+    position: absolute;
+    overflow: hidden;
+    padding-right: 22%;
+    top:30%;
+    right: 1%;
+    width: 60%;
+    height: 45%;
+}
+/*h1{ 
+    font-family: "Love";
+    color: blueviolet;
+}*/
+
+/*mediaqueri tablet*/
+@media (max-width: 900px) {
+    .acuario {
+        background-size:cover;
+        background-position:12%;
+    }
+    .aries {
+        background-size:cover;
+        background-position:12%;
+    }
+    .cancer {
+        background-size:cover;
+        background-position:12%;
+    }
+    .capricornio {
+        background-size:cover;
+        background-position:12%;
+    }
+    .escorpio {
+        background-size:cover;
+        background-position:12%;
+    }
+    .geminis {
+        background-size:cover;
+        background-position:12%;
+    }
+    .leo {
+        background-size:cover;
+        background-position:12%;
+    }
+    .libra {
+        background-size:cover;
+        background-position:12%;
+    }
+    .piscis {
+        background-size:cover;
+        background-position:12%;
+    }
+    .sagitario {
+        background-size:cover;
+        background-position:12%;
+    }
+    .tauro {
+        background-size:cover;
+        background-position:12%;
+    }
+    .virgo {
+        background-size:cover;
+        background-position:12%;
+    }
+}
+  

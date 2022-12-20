@@ -1,6 +1,6 @@
 let nameAdd="";
 let signAdd="";
-let imgAsign='
+let imgAsign='';
 let newCoder=[];
 let newBaseDate=[];
 

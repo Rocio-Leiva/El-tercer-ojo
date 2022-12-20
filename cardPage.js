@@ -23,6 +23,8 @@ function azar() {
 
   if (eleccion === 'piscis') {
     window.location = href='https://www.amazon.es/';
+
+    // window.location.assign("https://www.w3schools.com");
     
     // window.location = "<button type='button' class='btn btn-primary btn-lg suerte'><a class='button-link' href='https://www.amazon.es/'>PROBAR SUERTE</a></button>";
   } else if (eleccion === [1] === 'Aries') {

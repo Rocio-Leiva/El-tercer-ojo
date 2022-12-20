@@ -14,9 +14,16 @@ let horoscopo = newList.map(element => element ["sign"]);
 let aleatorio = Math.floor(Math.random() * newList.length);
 
 card_selection.innerHTML=`<div class="d-flex flex-column align-items-center justify-content-center"><h1 class="name_animation">${signName[aleatorio]}</h1>
-      <div class="d-felx align-items-center justify-content-center"><img src="${signImagen[aleatorio]} class="justify-content-center card_animation" alt="... ">
+      <div class="d-flex align-items-center justify-content-center"><img src="${signImagen[aleatorio]}" class="justify-content-center 
+      card_animation" alt="... ">
+      <button type="button" class="btn btn-info"><a href="${horoscopo[aleatorio]}.html">Ir a mi horoscopo</a></button>
+
       </div>
       </div>`
+
+      // setTimeout(() => {
+        
+      // }, timeout);
 
 console.log(newList[aleatorio]);
 let eleccion = horoscopo[aleatorio];
@@ -29,8 +36,8 @@ azar();
 
 function azar() {
 
-  if (eleccion === 'piscis') {
-    window.location = href='https://www.amazon.es/';
+  if (eleccion == 'Piscis') {
+   location.href='./index.html';
 
     // window.location.assign("https://www.w3schools.com");
     

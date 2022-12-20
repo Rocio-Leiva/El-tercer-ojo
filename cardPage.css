@@ -112,7 +112,7 @@ footer {
   
   /** media queries for tablets*/
   @media (max-width: 900px) {
-    .cartas { grid-template-columns: repeat(1, 1fr); }
+    .cartas { grid-template-columns: repeat(2, 1fr); }
   }
 
   

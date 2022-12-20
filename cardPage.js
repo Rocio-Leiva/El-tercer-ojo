@@ -28,45 +28,6 @@ card_selection.innerHTML=`<div class="d-flex flex-column align-items-center just
 console.log(newList[aleatorio]);
 let eleccion = horoscopo[aleatorio];
 console.log(eleccion);
-
-
-azar();
 });
-
-
-function azar() {
-
-  if (eleccion == 'Piscis') {
-   location.href='./index.html';
-
-    // window.location.assign("https://www.w3schools.com");
-    
-    // window.location = "<button type='button' class='btn btn-primary btn-lg suerte'><a class='button-link' href='https://www.amazon.es/'>PROBAR SUERTE</a></button>";
-  } else if (eleccion === [1] === 'Aries') {
-    window.location = href='https://www.amazon.es/';
-  } else if (eleccion === [1] === 'Tauro') {
-    window.location = href='https://www.amazon.es/' ;
-  } else if (eleccion === [1] === 'Geminis') {
-    window.location = href='https://www.amazon.es/';
-  } else if (eleccion === [1] === 'Cancer') {
-    window.location = href='https://www.amazon.es/';
-  } else if (eleccion === [1] === 'Leo') {
-    window.location = href='https://www.amazon.es/';
-  } else if (eleccion === [1] === 'Virgo') {
-    window.location = href='https://www.amazon.es/';
-  } else if (eleccion === [1] === 'Libra') {
-    window.location = href='https://www.amazon.es/' ;
-  } else if (eleccion === [1] === 'Escorpio') {
-    window.location = href='https://www.amazon.es/';
-  } else if (eleccion === [1] ===  'Sagitario') {
-    window.location = href='https://www.amazon.es/';
-  } else if (eleccion === [1] === 'Capricornio') {
-    window.location = "url11";
-  // } else if (eleccion === 'Acuario') {
-  //   formulario.innerHTML = "<button type='button' class='btn btn-primary btn-lg suerte'><a class='button-link' href='https://www.amazon.es/'>SABER MI FUTURO</a></button>";
-  } 
- 
-}
-
 
 

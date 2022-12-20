@@ -17,10 +17,7 @@ body, html {
 	width: 100%;
 }
 
-aside,  footer {
-	border: solid .125rem;
-}
- 
+
 
 .page {
 	display: grid;
@@ -106,18 +103,13 @@ footer {
     padding-right: 15%;
     
 }
-
-.card_selection {
-    display: flex;
-    position: absolute;
-}
    
 
 
   
   /** media queries for tablets*/
   @media (max-width: 900px) {
-    .cartas { grid-template-columns: repeat(1, 1fr); }
+    .cartas { grid-template-columns: repeat(2, 1fr); }
+    
   }
 
-  

@@ -24,16 +24,16 @@ function addCoders() {
          switch(signAdd){
                 case "Acuario": imgAsign = './img/acuario.png'; break;
                 case "Cancer": imgAsign = './img/cancer.png'; break;
-                case signAdd="Aries": imgAsign = './img/aries.png'; break;
-                case signAdd="Capricornio": imgAsign = './img/capricornio.png'; break;
-                case signAdd="Escorpio": imgAsign = './img/escorpio.png'; break;
-                case signAdd="Géminis": imgAsign = './img/geminis.png'; break;
-                case signAdd="Leo": imgAsign = './img/leo.png'; break;
-                case signAdd="Libra": imgAsign = './img/libra.png'; break;
-                case signAdd="Piscis": imgAsign = './img/piscis.png'; break;
-                case signAdd="Sagitario": imgAsign = './img/sagitario.png'; break;
-                case signAdd="Tauro": imgAsign = './img/tauro.png'; break;
-                case signAdd="Virgo": imgAsign = './img/virgo.png'; break;
+                case "Aries": imgAsign = './img/aries.png'; break;
+                case "Capricornio": imgAsign = './img/capricornio.png'; break;
+                case "Escorpio": imgAsign = './img/escorpio.png'; break;
+                case "Géminis": imgAsign = './img/geminis.png'; break;
+                case "Leo": imgAsign = './img/leo.png'; break;
+                case "Libra": imgAsign = './img/libra.png'; break;
+                case "Piscis": imgAsign = './img/piscis.png'; break;
+                case "Sagitario": imgAsign = './img/sagitario.png'; break;
+                case "Tauro": imgAsign = './img/tauro.png'; break;
+                case "Virgo": imgAsign = './img/virgo.png'; break;
              }; 
     
     console.log();

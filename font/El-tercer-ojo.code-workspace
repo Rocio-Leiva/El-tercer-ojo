@@ -1,0 +1,19 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../../../MedievalSharp"
+		},
+		{
+			"path": "../../../Rubik_Wet_Paint"
+		},
+		{
+			"path": "../../../Love_Ya_Like_A_Sister"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "El-tercer-ojo"
+	}
+}

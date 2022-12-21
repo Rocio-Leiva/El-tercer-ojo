@@ -19,7 +19,7 @@ boton.addEventListener("click", ()=> {
   signName = newList.map(element => element ["name"]);
   horoscopo = newList.map(element => element ["sign"]);
 
-  let k;
+  let i,k,aleatorio;
     for (i = newList.length; i; i--) {
         aleatorio = Math.floor(Math.random() * i);
         k = newList[i - 1];

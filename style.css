@@ -1,0 +1,280 @@
+* {
+    margin: 0;
+
+}
+
+
+@font-face {
+
+    font-family: Love;
+    src: url('./font/Love_Ya_Like_A_Sister/LoveYaLikeASister-Regular.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+
+}
+
+
+@font-face {
+
+    font-family: Mediaval;
+    src: url('./font/MedievalSharp/MedievalSharp-Regular.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+
+}
+
+
+@font-face {
+
+    font-family: Rubik;
+    src: url('./font/Rubik_Wet_Paint/RubikWetPaint-Regular.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+
+}
+
+
+body {
+
+    background-image: url(./fondo-galaxia.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+
+}
+
+
+body,
+html {
+
+    padding: 1rem;
+    height: 100%;
+    width: 100%;
+
+}
+
+
+
+
+
+.fondo {
+
+    display: grid;
+    height: 100%;
+    grid-template-columns: 1fr 3fr;
+    grid-template-rows: 1fr 6.25rem;
+    gap: 4rem;
+
+}
+
+
+footer {
+
+    display: flex;
+    flex-direction: row;
+    margin-left: 200%;
+    gap: 4rem;
+
+
+
+}
+
+
+
+.botones {
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 10%;
+    gap: 3rem;
+    background-color: blueviolet;
+
+
+
+}
+
+
+#acuario {
+
+    margin-left: 10%;
+    background-image: url(./img/acuario.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+}
+
+
+h3 {
+
+    font-family: "Love";
+    padding-left: 29rem;
+    color: aliceblue;
+
+}
+
+
+p {
+
+    font-family: "Love";
+    color: black;
+    font-size: 130%;
+
+}
+
+
+#buttonvideo {
+
+    margin: auto;
+    cursor: pointer;
+    min-width: 10rem;
+    padding: 0.5rem 1em;
+    display: flex;
+    justify-content: center;
+    background-color: blueviolet;
+    margin-bottom: 2.125rem;
+    border-radius: .625rem;
+    font-family: "Love";
+    color: aliceblue;
+
+}
+
+
+#buttonback {
+
+    margin: auto;
+    cursor: pointer;
+    min-width: 10rem;
+    padding: 0.5rem 1em;
+    display: flex;
+    justify-content: center;
+    background-color: blueviolet;
+    margin-bottom: 2.125rem;
+    border-radius: .625rem;
+    font-family: "Love";
+    color: aliceblue;
+
+}
+
+
+#piscis {
+
+    margin-left: 10%;
+    background-image: url(./img/piscis.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+}
+
+
+#aries {
+
+    margin-left: 10%;
+    background-image: url(./img/aries.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+}
+
+
+#tauro {
+
+    margin-left: 10%;
+    background-image: url(./img/tauro.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+}
+
+
+#geminis {
+
+    margin-left: 10%;
+    background-image: url(./img/geminis.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+}
+
+
+#cancer {
+
+    margin-left: 10%;
+    background-image: url(./img/cancer.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+}
+
+
+#leo {
+
+    margin-left: 10%;
+    background-image: url(./img/leo.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+}
+
+
+
+#virgo {
+
+    margin-left: 10%;
+    background-image: url(./img/virgo.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+}
+
+
+#libra {
+
+    margin-left: 10%;
+    background-image: url(./img/libra.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+}
+
+
+#capricornio {
+
+    margin-left: 10%;
+    background-image: url(./img/capricornio.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+}
+
+
+#sagitario {
+
+    margin-left: 10%;
+    background-image: url(./img/sagitario.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+}
+
+
+#escorpio {
+
+    margin-left: 10%;
+    background-image: url(./img/escorpio.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+}
+
+
+@media (max-width: 900px) {
+
+    h3 {
+        text-align: center;
+        position: static;
+        background-position: right;
+    }
+
+}

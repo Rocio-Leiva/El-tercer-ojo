@@ -3,7 +3,7 @@ import { newBaseDate } from "./addCard.js"
 
 let card_selection = document.querySelector("#card_selection");
 let boton = document.querySelector(".suerte");
-let eleccion = "";
+// let eleccion = "";
 
 boton.addEventListener("click", ()=> {
  let newList= [...codersList, ...newBaseDate];

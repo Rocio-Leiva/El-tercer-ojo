@@ -3,8 +3,6 @@
 
 }
 
-
-
 @font-face {
 
     font-family: Love;
@@ -54,10 +52,6 @@ html {
 
 }
 
-
-
-
-
 .fondo {
 
     display: grid;
@@ -75,8 +69,7 @@ footer {
     flex-direction: row;
     margin-left: 200%;
     gap: 4rem;
-
-
+    margin-bottom: 25%;
 
 }
 
@@ -125,14 +118,14 @@ p {
 
 }
 
-#buttonvideo a{
+#buttonvideo a {
     color: white;
     text-decoration: none;
 }
 
 #buttonback a {
     color: white;
-    text-decoration: none; 
+    text-decoration: none;
 }
 
 #buttonback {

@@ -16,10 +16,10 @@ let aleatorio = Math.floor(Math.random() * newList.length);
 card_selection.innerHTML=`<div class="d-flex flex-column align-items-center justify-content-center"><h1 style="color:#ffffff; text-align: center;
 class="name_animation">${signName[aleatorio]}</h1>
       <div class="d-flex align-items-center justify-content-center"><img src="${signImagen[aleatorio]}" class="justify-content-center 
-      card_animation" alt="... " width="260rem" height="470rem">
-      <button type="button" class="btn btn-info"><a href="${horoscopo[aleatorio]}.html">Ir a mi horoscopo</a></button>
+      card_animation" alt="...  width="100rem" height="170rem" > </div>
+      <button type="button" class="d-flex align-items-center justify-content-center btn btn-info"><a href="${horoscopo[aleatorio]}.html">Ir a mi horoscopo</a></button>
 
-      </div>
+     
       </div>`
 
       // setTimeout(() => {

@@ -20,7 +20,26 @@
 
 
 /* Contenedor general */
+#buttonback{
+      margin: auto;
+    cursor: pointer;
+    min-width: 10rem;
+    padding: 0.5rem 1em;
+    display: flex;
+    justify-content: center;
+    background-color: blueviolet;
+    margin-bottom: 2.125rem;
+    border-radius: .625rem;
+    font-family: "Love";
+    color: aliceblue;
+    margin-top: 369%;
+    
+}
 
+#buttonback a {
+    color: white;
+    text-decoration: none; 
+}
 .acuario{
     display:flex;
     flex-direction: column;
@@ -31,17 +50,17 @@
     justify-content: center;
     align-items: center;
     background-image: url(./img/aquarius-7617682_1280.jpg);background-repeat: no-repeat;background-attachment: fixed;
-    /*background-size: cover;
-    background-position: 12%;*/
+    background-size: 100% 100%;
 }
-
+    
+   
 
 .videoacuario {
     position: absolute;
     overflow: hidden;
     padding-right: 22%;
     top:30%;
-    right: 1%;
+    left: 40%;
     width: 60%;
     height: 45%;
 }
@@ -64,7 +83,7 @@
     overflow: hidden;
     padding-right: 22%;
     top:30%;
-    right: 1%;
+   left: 40%;
     width: 60%;
     height: 45%;
 }
@@ -86,7 +105,7 @@
     overflow: hidden;
     padding-right: 22%;
     top:30%;
-    right: 1%;
+   left: 40%;
     width: 60%;
     height: 45%;
 }
@@ -100,15 +119,16 @@
     width: 100vw;
     justify-content: center;
     align-items: center;
-    background-image: url(./img/capricorn-7617684_1280.webp);background-repeat: no-repeat;background-attachment: fixed;
+    background-image: url(./img/capricorn-7617684_1280.jpg.jpeg);background-repeat: no-repeat;background-attachment: fixed;
     background-size: 100% 100%;
 }
+
 .videocapricornio {
     position: absolute;
     overflow: hidden;
     padding-right: 22%;
     top:30%;
-    right: 1%;
+   left: 40%;
     width: 60%;
     height: 45%;
 }
@@ -129,7 +149,7 @@
     overflow: hidden;
     padding-right: 22%;
     top:30%;
-    right: 1%;
+   left: 40%;
     width: 60%;
     height: 45%;
 }
@@ -151,7 +171,7 @@
     overflow: hidden;
     padding-right: 22%;
     top:30%;
-    right: 1%;
+   left: 40%;
     width: 60%;
     height: 45%;
 }
@@ -172,7 +192,7 @@
     overflow: hidden;
     padding-right: 22%;
     top:30%;
-    right: 1%;
+   left: 40%;
     width: 60%;
     height: 45%;
 }
@@ -194,7 +214,7 @@
     overflow: hidden;
     padding-right: 22%;
     top:30%;
-    right: 1%;
+   left: 40%;
     width: 60%;
     height: 45%;
 }
@@ -216,7 +236,7 @@
     overflow: hidden;
     padding-right: 22%;
     top:30%;
-    right: 1%;
+   left: 40%;
     width: 60%;
     height: 45%;
 }
@@ -237,7 +257,7 @@
     overflow: hidden;
     padding-right: 22%;
     top:30%;
-    right: 1%;
+   left: 40%;
     width: 60%;
     height: 45%;
 }
@@ -251,7 +271,7 @@
     width: 100vw;
     justify-content: center;
     align-items: center;
-    background-image: url(./img/taurus-7617693_1280.webp);background-repeat: no-repeat;background-attachment: fixed;
+    background-image: url(./img/taurus-7617693_1280.jpeg);background-repeat: no-repeat;background-attachment: fixed;
     background-size: 100% 100%;
 }
 .videotauro {
@@ -259,7 +279,7 @@
     overflow: hidden;
     padding-right: 22%;
     top:30%;
-    right: 1%;
+   left: 40%;
     width: 60%;
     height: 45%;
 }
@@ -280,7 +300,7 @@
     overflow: hidden;
     padding-right: 22%;
     top:30%;
-    right: 1%;
+   left: 40%;
     width: 60%;
     height: 45%;
 }

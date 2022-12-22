@@ -171,4 +171,11 @@ h2 {
         position: relative;
         
     }
+
+    #playBtn{
+       
+        margin-bottom: 1.25rem;
+        
+    }
+
 }

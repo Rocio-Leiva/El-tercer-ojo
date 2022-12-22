@@ -1,262 +1,310 @@
 * {
     margin: 0;
-
 }
-
 @font-face {
-
     font-family: Love;
     src: url('./font/Love_Ya_Like_A_Sister/LoveYaLikeASister-Regular.ttf') format('truetype');
     font-style: normal;
     font-weight: normal;
-
 }
-
-
 @font-face {
-
     font-family: Mediaval;
     src: url('./font/MedievalSharp/MedievalSharp-Regular.ttf') format('truetype');
     font-style: normal;
     font-weight: normal;
-
 }
-
-
 @font-face {
-
     font-family: Rubik;
     src: url('./font/Rubik_Wet_Paint/RubikWetPaint-Regular.ttf') format('truetype');
     font-style: normal;
     font-weight: normal;
-
 }
-
-
 body {
-
     background-image: url(./fondo-galaxia.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 100% 100%;
-
 }
-
-
-body,
-html {
-
+@media (min-width: 900px) {
+body, html {
     padding: 1rem;
     height: 100%;
     width: 100%;
-
 }
-
 .fondo {
-
     display: grid;
     height: 100%;
     grid-template-columns: 1fr 3fr;
     grid-template-rows: 1fr 6.25rem;
     gap: 4rem;
-
 }
-
-
-footer {
-
-    display: flex;
-    flex-direction: row;
-    margin-left: 200%;
-    gap: 4rem;
-    margin-bottom: 25%;
-
+h3 {
+    font-family: "Love";
+    padding-left: 29rem;
+    color: aliceblue;
 }
-
-
-
+p {
+    font-family: "Love";
+    color: black;
+    font-size: 130%;
+}
 #acuario {
-
     margin-left: 10%;
     background-image: url(./img/acuario.jpg);
     background-repeat: no-repeat;
     background-size: 100% 100%;
-
 }
-
-
-h3 {
-
-    font-family: "Love";
-    padding-left: 29rem;
-    color: aliceblue;
-
-}
-
-
-p {
-
-    font-family: "Love";
-    color: black;
-    font-size: 130%;
-
-}
-
-
-#buttonvideo {
-
-    margin: auto;
-    cursor: pointer;
-    min-width: 10rem;
-    padding: 0.5rem 1em;
-    display: flex;
-    justify-content: center;
-    background-color: blueviolet;
-    margin-bottom: 2.125rem;
-    border-radius: .625rem;
-    font-family: "Love";
-
-}
-
-#buttonvideo a {
-    color: white;
-    text-decoration: none;
-}
-
-#buttonback a {
-    color: white;
-    text-decoration: none;
-}
-
-#buttonback {
-
-    margin: auto;
-    cursor: pointer;
-    min-width: 10rem;
-    padding: 0.5rem 1em;
-    display: flex;
-    justify-content: center;
-    background-color: blueviolet;
-    margin-bottom: 2.125rem;
-    border-radius: .625rem;
-    font-family: "Love";
-    color: aliceblue;
-
-}
-
-
 #piscis {
-
     margin-left: 10%;
     background-image: url(./img/piscis.jpg);
     background-repeat: no-repeat;
     background-size: 100% 100%;
-
 }
-
-
 #aries {
-
     margin-left: 10%;
     background-image: url(./img/aries.jpg);
     background-repeat: no-repeat;
     background-size: 100% 100%;
-
 }
-
-
 #tauro {
-
     margin-left: 10%;
     background-image: url(./img/tauro.jpg);
     background-repeat: no-repeat;
     background-size: 100% 100%;
-
 }
-
-
 #geminis {
-
     margin-left: 10%;
     background-image: url(./img/geminis.jpg);
     background-repeat: no-repeat;
     background-size: 100% 100%;
-
 }
-
-
 #cancer {
-
     margin-left: 10%;
     background-image: url(./img/cancer.jpg);
     background-repeat: no-repeat;
     background-size: 100% 100%;
-
 }
-
-
 #leo {
-
     margin-left: 10%;
     background-image: url(./img/leo.jpg);
     background-repeat: no-repeat;
     background-size: 90% 90%;
-
 }
-
-
-
 #virgo {
-
     margin-left: 10%;
     background-image: url(./img/virgo.jpg);
     background-repeat: no-repeat;
     background-size: 100% 100%;
-
 }
-
-
 #libra {
-
     margin-left: 10%;
     background-image: url(./img/libra.jpg);
     background-repeat: no-repeat;
     background-size: 100% 100%;
-
 }
-
-
 #capricornio {
-
     margin-left: 10%;
     background-image: url(./img/capricornio.jpg);
     background-repeat: no-repeat;
     background-size: 100% 100%;
-
 }
-
-
 #sagitario {
-
     margin-left: 10%;
     background-image: url(./img/sagitario.jpg);
     background-repeat: no-repeat;
     background-size: 100% 100%;
-
 }
-
-
 #escorpio {
-
     margin-left: 10%;
     background-image: url(./img/escorpio.jpg);
     background-repeat: no-repeat;
     background-size: 100% 100%;
-
 }
-
+footer {
+    display: flex;
+    flex-direction: row;
+    margin-left: 200%;
+    gap: 4rem;
+}
+#buttonvideo {
+    margin: auto;
+    cursor: pointer;
+    min-width: 10rem;
+    padding: 0.5rem 1em;
+    display: flex;
+    justify-content: center;
+    background-color: blueviolet;
+    margin-bottom: 2.125rem;
+    border-radius: .625rem;
+    font-family: "Love";
+}
+#buttonvideo a{
+    color: white;
+    text-decoration: none;
+}
+#buttonback a {
+    color: white;
+    text-decoration: none;
+}
+#buttonback {
+    margin: auto;
+    cursor: pointer;
+    min-width: 10rem;
+    padding: 0.5rem 1em;
+    display: flex;
+    justify-content: center;
+    background-color: blueviolet;
+    margin-bottom: 2.125rem;
+    border-radius: .625rem;
+    font-family: "Love";
+    color: aliceblue;
+}
+}
 @media (max-width: 900px) {
-    .cartas {
-        grid-template-columns: repeat(1, 2fr);
+    body, html {
+    padding: 3%;
+    width: 100%;
+    }
+    h3 {
+        font-family: "Love";
+        color: aliceblue;
+        text-align: center;
+    }
+    p {
+        font-family: "Love";
+        color: black;
+        font-size: 130%;
+        text-align: center;
+    }
+    .fondo {
+        display: grid;
+        grid-template-rows: 1.5fr 2fr;
+    }
+    #escorpio {
+        background-image: url(./img/escorpio.jpg);
+        background-repeat: no-repeat;
+        background-size: 35% auto;
+        background-position-x: center;
+        margin-bottom: 2%;
+    }
+    #acuario {
+        background-image: url(./img/acuario.jpg);
+        background-repeat: no-repeat;
+        background-size: 35% auto;
+        background-position-x: center;
+        margin-bottom: 2%;
+    }
+    #piscis {
+        background-image: url(./img/piscis.jpg);
+        background-repeat: no-repeat;
+        background-size: 35% auto;
+        background-position-x: center;
+        margin-bottom: 2%;
+    }
+    #aries {
+        background-image: url(./img/aries.jpg);
+        background-repeat: no-repeat;
+        background-size: 35% auto;
+        background-position-x: center;
+        margin-bottom: 2%;
+    }
+    #tauro {
+        background-image: url(./img/tauro.jpg);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        background-size: 35% auto;
+        background-position-x: center;
+        margin-bottom: 2%;
+    }
+    #geminis {
+        background-image: url(./img/geminis.jpg);
+        background-repeat: no-repeat;
+        background-size: 35% auto;
+        background-position-x: center;
+        margin-bottom: 2%;
+    }
+    #cancer {
+        background-image: url(./img/cancer.jpg);
+        background-repeat: no-repeat;
+        background-size: 35% auto;
+        background-position-x: center;
+        margin-bottom: 2%;
+    }
+    #leo {
+        background-image: url(./img/leo.jpg);
+        background-repeat: no-repeat;
+        background-size: 35% auto;
+        background-position-x: center;
+        margin-bottom: 2%;
+    }
+    #virgo {
+        background-image: url(./img/virgo.jpg);
+        background-repeat: no-repeat;
+        background-size: 35% auto;
+        background-position-x: center;
+        margin-bottom: 2%;
+    }
+    #libra {
+        background-image: url(./img/libra.jpg);
+        background-repeat: no-repeat;
+        background-size: 35% auto;
+        background-position-x: center;
+        margin-bottom: 2%;
+    }
+    #capricornio {
+        background-image: url(./img/capricornio.jpg);
+        background-repeat: no-repeat;
+        background-size: 35% auto;
+        background-position-x: center;
+        margin-bottom: 2%;
+    }
+    #sagitario {
+        background-image: url(./img/sagitario.jpg);
+        background-repeat: no-repeat;
+        background-size: 35% auto;
+        background-position-x: center;
+        margin-bottom: 2%;
+    }
+    .texto {
+        width: 100%;
+    }
+    footer {
+        display: flex;
+        flex-direction: row;
+        margin-top: 5%;
+    }
+    #buttonvideo {
+        margin: auto;
+        cursor: pointer;
+        min-width: 10rem;
+        padding: 0.5rem 1em;
+        display: flex;
+        justify-content: center;
+        background-color: blueviolet;
+        margin-bottom: 2.125rem;
+        border-radius: .625rem;
+        font-family: "Love";
+    }
+    #buttonvideo a{
+        color: white;
+        text-decoration: none;
+    }
+    #buttonback a {
+        color: white;
+        text-decoration: none;
+    }
+    #buttonback {
+        margin: auto;
+        cursor: pointer;
+        min-width: 10rem;
+        padding: 0.5rem 1em;
+        display: flex;
+        justify-content: center;
+        background-color: blueviolet;
+        margin-bottom: 2.125rem;
+        border-radius: .625rem;
+        font-family: "Love";
+        color: aliceblue;
     }
 }

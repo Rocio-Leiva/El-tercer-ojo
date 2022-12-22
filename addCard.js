@@ -5,7 +5,7 @@ let signAdd="";
 let imgAsign='';
 let newCoder=[];
 let newBaseDate=[];
-let newList = [];  
+let newList = [... codersList];  
 
 let add=document.querySelector("#añadir")
 add.addEventListener("click", addCoders);
@@ -50,7 +50,7 @@ function addCoders() {
 function addBaseDate(){
     newBaseDate.push(newCoder);
     console.log(newBaseDate);
-    newList= [...codersList, ...newBaseDate];
+    newList.push(newBaseDate);
     console.log(newList);    
 }
 

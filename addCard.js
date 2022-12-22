@@ -1,9 +1,11 @@
+import { codersList } from "./data.js"
+
 let nameAdd="";
 let signAdd="";
 let imgAsign='';
 let newCoder=[];
 let newBaseDate=[];
-
+let newList = [];  
 
 let add=document.querySelector("#añadir")
 add.addEventListener("click", addCoders);
@@ -36,8 +38,6 @@ function addCoders() {
                 case "Virgo": imgAsign = './img/virgo.jpg'; break;
              }; 
     
-    console.log();
-
     newCoder = new coders (nameAdd, signAdd, imgAsign);
 
     console.log (newCoder);
@@ -50,10 +50,14 @@ function addCoders() {
 function addBaseDate(){
     newBaseDate.push(newCoder);
     console.log(newBaseDate);
-
+    newList= [...codersList, ...newBaseDate];
+    console.log(newList);    
 }
 
+
 export { newBaseDate }
+
+export { newList }
 
 //unir los dos arrays
 

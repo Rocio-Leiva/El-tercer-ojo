@@ -19,15 +19,32 @@ boton.addEventListener("click", ()=> {
   signName = newList.map(element => element ["name"]);
   horoscopo = newList.map(element => element ["sign"]);
 
-  let i,k,aleatorio;
-    for (i = newList.length; i; i--) {
-        aleatorio = Math.floor(Math.random() * i);
-        k = newList[i - 1];
-        newList[i - 1] = newList[aleatorio];
-        newList[aleatorio] = k;}
+//   let i,k,aleatorio;
+//     for (i = newList.length; i; i--) {
+//         aleatorio = Math.floor(Math.random() * i);
+//         k = newList[i - 1];
+//         newList[i - 1] = newList[aleatorio];
+//         newList[aleatorio] = k;}
 
-
-  // let aleatorio = Math.floor(Math.random() * newList.length);
+// function selectCoders(){
+//     var selectCoder = [];
+  
+//     // Cantidad aleatoria de elementos basada en la cantidad de elemenos de la variable zoo.
+//     var aleatorio = Math.floor((Math.random()*newList.length));
+  
+//     for(var i=0; i<aleatorio; i++){
+//        // Generar un nuevo elemento.
+//        var coder = newList[Math.floor((Math.random()*newList.length))];
+  
+//        // Si el elemento no se encuentra en lote[] agregar (push), en caso
+//        // de que sea se encuentre (continue;), saltar al siguente.
+//        if(selectCoder.indexOf(coder)!=-1){continue;} else {selectCoder.push(coder);}
+//     }
+//     console.log(selectCoder);
+//     console.log(newList);
+//  };
+//  selectCoders()
+  aleatorio = Math.floor(Math.random() * newList.length);
 
   card_selection.innerHTML=`<div class="d-flex flex-column align-items-center justify-content-center"><h1 style="color:#ffffff; text-align: center;
   class="name_animation">${signName[aleatorio]}</h1>

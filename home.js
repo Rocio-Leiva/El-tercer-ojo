@@ -3,8 +3,10 @@ document.querySelector(".big-button").style.padding="10px";
 document.querySelector("h1").style.fontSize = "xx-large";
 //document.querySelector("h1").style.fontSize = "2cm";
 
-let sound= new Audio('./musica/Khalil Gibran nos habla del trabajo. Presentación de Tarot El Camino.mp3');
+let playBtn=document.querySelector("#playBtn");
+let sound= new Audio('./musica/tarot.mp3');
 playBtn.addEventListener('click', ()=>{
+   console.log ( "hola prueba");
     sound.play();
 });
 

@@ -47,8 +47,9 @@ html {
     width: 100%;
 }
 
-h5 {
-    font-family: Rubik;
+h5,
+h6 {
+    font-family: Love;
     
 }
 

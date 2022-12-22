@@ -1,5 +1,5 @@
-// import { codersList } from "./data.js"
-// import { newBaseDate } from "./addCard.js"
+import { codersList } from "./data.js"
+import { newBaseDate } from "./addCard.js"
 import { newList } from "./addCard.js"
 
 let card_selection = document.querySelector("#card_selection");
@@ -8,13 +8,14 @@ let boton = document.querySelector(".suerte");
 
 
 boton.addEventListener("click", ()=> {
-    
+      newList= [...codersList, ...newBaseDate];
+      console.log(newList);
 
 let signImagen = newList.map(element => element ["img"]);
 let signName = newList.map(element => element ["name"]);
 let horoscopo = newList.map(element => element ["sign"]);
 let aleatorio = Math.floor(Math.random() * newList.length);
-
+console.log (aleatorio);
 console.log(newList[aleatorio]);
 newList.splice(aleatorio,1);
 console.log(newList);

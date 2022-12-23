@@ -23,7 +23,7 @@ export let codersList =
     },
     {
     name: 'Miriam',
-    sign: 'Cáncer',
+    sign: 'Cancer',
     img: './img/cancer.jpg',
     },
     {
@@ -58,7 +58,7 @@ export let codersList =
     },
     {
     name: 'Nohely',
-    sign: 'Géminis',
+    sign: 'Geminis',
     img: './img/geminis.jpg',
     },
     {
